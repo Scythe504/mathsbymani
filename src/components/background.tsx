@@ -14,7 +14,7 @@ export function BackgroundBoxesDemo() {
       <Boxes />
       <div className="-translate-y-20"  >
         <div className=" z-50 sm:translate-y-0 flex flex-col items-center justify-center gap-y-4 mt-16">
-          <Image src={nameImg} alt="institute logo" />
+          <Image src={nameImg} alt="institute logo" height="350" width="350"/>
           <div>
             <Button className="rounded-3xl bg-white text-black mx-3 hover:bg-white p-2 px-4 font-sans font-semibold" size={"lg"}>
               {<div className="flex items-center justify-center gap-1 text-blue-600">

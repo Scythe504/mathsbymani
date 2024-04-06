@@ -31,7 +31,7 @@ export default function Home() {
         <div>
           <Image src={mapQr} alt="location qr code" height="256" width="256"/>
         </div>
-        <div className="text-white text-center">
+        <div className="text-white text-center pb-20">
           Address: NEW MAKCHUND TOLI, ROAD NO-05 NEAR ANGIRA INTERNATIONAL KIDS SCHOOL, CHUTIA RANCHI JHARKHAND-834001 <br/>
           Landmark: AANGAN PALACE 
         </div>
