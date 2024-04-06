@@ -15,8 +15,16 @@ export default function Home() {
       <div className="overflow-hidden w-full">
         <CarouselWindow/>
       </div>
-      <CourseCarousel/>
-      <div className="flex flex-col items-center justify-center gap-2 pt-2">
+      <div className="flex flex-col items-center justify-center gap-2 pt-2" id="CourseId">
+        <h1 className="text-white text-4xl pb-4">
+          Courses
+        </h1>
+        <CourseCarousel/>
+      </div>
+      <div className="flex flex-col items-center justify-center gap-2 pt-2" id="ContactId">
+        <h1 className="text-white text-4xl pb-4">
+          Contact
+        </h1>
         <div>
         <ContactCard/>
         </div>

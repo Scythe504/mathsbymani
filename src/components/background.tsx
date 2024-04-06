@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import { Boxes } from "./ui/background-boxes";
-import { cn } from "@/lib/utils";
 import Image from "next/image";
 import nameImg from "../../public/logo.png"
 import { Button } from "./ui/button";
@@ -14,7 +13,7 @@ export function BackgroundBoxesDemo() {
       <div className="absolute inset-0 w-full h-full bg-slate-900 z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
       <Boxes />
       <div className="-translate-y-20"  >
-        <div className=" z-50 sm:translate-y-0 flex flex-col items-center justify-center gap-y-4 mt-8">
+        <div className=" z-50 sm:translate-y-0 flex flex-col items-center justify-center gap-y-4 mt-16">
           <Image src={nameImg} alt="institute logo" />
           <div>
             <Button className="rounded-3xl bg-white text-black mx-3 hover:bg-white p-2 px-4 font-sans font-semibold" size={"lg"}>

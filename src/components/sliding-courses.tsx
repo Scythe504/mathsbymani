@@ -6,11 +6,8 @@ import { Boxes } from "./ui/background-boxes"
 
 export default function CourseCarousel() {
 
-    return <div id="CourseId">
+    return <div>
    <div className="sm:flex sm:flex-col sm:items-center sm:justify-center gap-4">
-        <h1 className="text-center text-white text-4xl mb-4">
-            Courses
-        </h1>
         {
         courses.map((course: {
             name: string,

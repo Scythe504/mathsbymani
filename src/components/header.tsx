@@ -8,7 +8,7 @@ export default function Header() {
                     <div className="relative h-8 w-8 md:h-6 md:w-6 border border-slate-800  text-white   flex items-center justify-center rounded-md text-sm antialiased">
                         <div className="relative h-16 w-16 md:h-6 md:w-6 border border-slate-800  text-white   flex items-center justify-center rounded-md text-sm antialiased">
                             <div className="absolute h-10 w-full bg-white/[0.2] -top-10 inset-x-0 rounded-full blur-xl"></div>
-                            <div className="text-sm text-emerald-500 relative z-20">
+                            <div className="text-sm text-emerald-50 relative z-20">
                                 <Image src={logo} alt="logo" height="50" width="50" loading="lazy" style={{
                                     color: "white",
                                     borderColor : "white"
@@ -25,7 +25,7 @@ export default function Header() {
             <div className="relative h-8 w-8 md:h-6 md:w-6 border border-slate-800  text-white   flex items-center justify-center rounded-md text-sm antialiased">
                 <div className="absolute h-10 w-full bg-white/[0.2] -top-10 inset-x-0 rounded-full blur-xl"></div>
                 <div className="text-sm text-emerald-500 relative-z-20">
-                    <div className="text-sm text-emerald-500 relative z-20">
+                    <div className="text-sm text-emerald-50 relative z-20">
                         <Image src={logo} alt="logo" height="50" width="50" loading="lazy" style={{
                             color: "transparent"
                         }} />
@@ -39,7 +39,7 @@ export default function Header() {
             </a>
         </nav>
         <div className="flex flex-1 items-center justify-end gap-2 sm:gap-2 md:justify-end">
-            <a className="transition-colors hover:text-foreground/80 text-grey/70 text-md">
+            <a href="#ContactId" className="transition-colors hover:text-foreground/80 text-grey/70 text-md">
                 Contact us
             </a>
         </div>
