@@ -1,5 +1,5 @@
 import Image from "next/image"
-import logo from "../../public/image.png"
+import logo from "../../public/logo.png"
 export default function Header() {
     return (<header className="fixed z-50 top-0 px-4 w-full h-16 border-b shadow-sm bg-background/80 backdrop-blur-md flex items-center gap-2 print:hidden">
         <div className="container flex h-16 items-center max-w-[88rem] mx-auto">
@@ -33,13 +33,13 @@ export default function Header() {
                 </div>
             </div>
         </a>
-        <nav className="flex items-center text-base xl:flex">
+        <nav className="flex items-center text-md text-base xl:flex">
             <a href="#CourseId" className="transition-colors hover:text-foreground/80 text-grey/70">
                 Courses
             </a>
         </nav>
         <div className="flex flex-1 items-center justify-end gap-2 sm:gap-2 md:justify-end">
-            <a className="transition-colors hover:text-foreground/80 text-grey/70 text-sm">
+            <a className="transition-colors hover:text-foreground/80 text-grey/70 text-md">
                 Contact us
             </a>
         </div>

@@ -13,7 +13,7 @@ import { Boxes } from "./ui/background-boxes"
 
 export function CarouselWindow() {
     return (
-        <Carousel className="mx-12">
+        <Carousel className="mx-12 mb-8 pb-8">
             <CarouselContent>
                 {metadata.map((data, index) => (
                     <CarouselItem key={index}>
