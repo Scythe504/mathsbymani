@@ -1,21 +1,19 @@
 import { Card, CardContent } from "./ui/card"
 import { courses } from "@/app/app-data/courses"
 
-export default function CourseCarousel() {
+export default function CourseCards() {
 
     return <div>
-   <div className="sm:flex sm:flex-col sm:items-center sm:justify-center gap-4">
+   <div className="sm:flex sm:flex-col sm:items-center sm:justify-center gap-4 flex flex-col items-center justify-center mx-2">
         {
         courses.map((course: {
             name: string,
             students: string,
             fees: string
         }, index: number) => {
-            return <div key={index}>
-                <Card className="bg-slate-900">
+            return <Card className="bg-transparent shadow-md shadow-slate-800" key={index}>
                     <CardContent>
-                        <div className="flex flex-col items-center justify-center gap-2 text-center text-md text-white  rounded-md max-w-64 shadow-md p-2 shadow-slate-800" key={index}>
-                            <div className="pb-4 pt-4">
+                            <div className="mt-6 text-center flex flex-col items-center justify-center text-xl font-sans font-semibold gap-2 text-white">
                                 <div>
                                     Name: {course.name}
                                 </div>
@@ -26,10 +24,8 @@ export default function CourseCarousel() {
                                     Fees: {course.fees}
                                 </div>
                             </div>
-                        </div>
                     </CardContent>
                 </Card>
-            </div>
         })
     }
     </div>

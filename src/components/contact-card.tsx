@@ -6,7 +6,7 @@ import { SlPhone } from "react-icons/sl";
 export default function ContactCard() {
 
     return (
-        <div className="bg-slate-900 text-white w-full flex sm:gap-12 items-center justify-between text-xl underline gap-2" id="ContactId">
+        <div className="bg-transparent text-white w-full flex sm:gap-12 items-center justify-between text-xl underline gap-2" id="ContactId">
           <div>
             <Link href={`tel:896-916-1759`}>
               <div className="flex items-center gap-1 hover:text-blue-300">

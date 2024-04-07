@@ -1,26 +1,41 @@
-import { BackgroundBoxesDemo } from "@/components/background";
+import { HeroSection } from "@/components/background";
 import ContactCard from "@/components/contact-card";
-import CourseCarousel from "@/components/sliding-courses";
-import { CarouselWindow } from "@/components/sliding-windows";
+import CourseCarousel from "@/components/course-cards";
+import { FeatureList } from "@/components/features";
 import Image from "next/image";
 import mapQr from "../../public/location.png"
+import { Poppins } from "next/font/google";
+import { cn } from "@/lib/utils";
 
+const font = Poppins({
+  subsets: ["latin"],
+  weight: ["600"]
+})
 
 export default function Home() {
   return (
-    <div className={"translate-y-12 bg-slate-900 overflow-hidden"}>
-      <BackgroundBoxesDemo/>
+    <main className="flex flex-col 
+    items-center
+    justify-center bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))]
+     from-blue-400 to-blue-800 min-h-screen min-w-screen pb-24"
+     >
+    <div className={"bg-transparent overflow-hidden"}>
+      <HeroSection/>
       <div className="overflow-hidden w-full">
-        <CarouselWindow/>
+        <FeatureList/>
       </div>
       <div className="flex flex-col items-center justify-center gap-2 pt-2" id="CourseId">
-        <h1 className="text-white text-4xl pb-4">
+        <h1 className={cn("text-white font-semibold text-4xl pb-4",
+        font.className
+        )}>
           Courses
         </h1>
         <CourseCarousel/>
       </div>
-      <div className="flex flex-col items-center justify-center gap-2 pt-2" id="ContactId">
-        <h1 className="text-white text-4xl pb-4">
+      <div className="flex flex-col items-center justify-center gap-2 pt-2 mt-8" id="ContactId">
+      <h1 className={cn("text-white font-semibold text-4xl pb-4",
+        font.className
+        )}>
           Contact
         </h1>
         <div>
@@ -29,11 +44,13 @@ export default function Home() {
         <div className="py-4">
           <Image src={mapQr} alt="location qr code" height="256" width="256"/>
         </div>
-        <div className="text-white text-center pb-20">
+        <div className="text-white text-center">
           Address: NEW MAKCHUND TOLI, ROAD NO-05 NEAR ANGIRA INTERNATIONAL KIDS SCHOOL, CHUTIA RANCHI JHARKHAND-834001 <br/>
           Landmark: AANGAN PALACE 
         </div>
       </div>
     </div>
+    </main>
+
   )
 }

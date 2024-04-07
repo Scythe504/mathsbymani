@@ -2,7 +2,7 @@
 import * as React from "react"
 import { feature } from "@/app/app-data/data"
 
-export function CarouselWindow() {
+export function FeatureList() {
     return (
         <div className="flex flex-col items-center justify-center space-y-8">
             <h1 className="font-bold text-3xl text-white">What we provide</h1>

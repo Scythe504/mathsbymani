@@ -22,11 +22,10 @@ export default function Header() {
                 </a>
             </div>
         <a className="inline-flex items-center justify-center rounded-md font-medium transition-colors focus-visible:outline-none focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 hover:text-accent-foreground h-9 py-2 mr-2 px-0 text-base hover:bg-transparent focus-visible:bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0 md:hidden" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-:rn:" data-state="closed" href="/">
-            <div className="relative h-8 w-8 md:h-6 md:w-6 border border-slate-800  text-white   flex items-center justify-center rounded-md text-sm antialiased">
-                <div className="absolute h-10 w-full bg-white/[0.2] -top-10 inset-x-0 rounded-full blur-xl"></div>
+            <div className="relative h-8 w-8 md:h-6 md:w-6 text-white flex items-center justify-center rounded-md text-md antialiased">
                 <div className="text-sm text-emerald-500 relative-z-20">
                     <div className="text-sm text-emerald-50 relative z-20">
-                        <Image src={logo} alt="logo" height="50" width="50" loading="lazy" style={{
+                        <Image src={logo} alt="logo" height="64" loading="lazy" style={{
                             color: "transparent"
                         }} />
                     </div>
