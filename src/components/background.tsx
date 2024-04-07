@@ -10,7 +10,7 @@ import { Poppins } from "next/font/google";
 
 const font = Poppins({
   subsets: ["latin"],
-  weight: ["200", "300", "400", "600"]
+  weight: ["200", "300", "400", "600","700","800","900"]
 })
 
 export function HeroSection() {
@@ -31,18 +31,19 @@ export function HeroSection() {
               </Button>
           </div>
           <h1 className={cn
-            (`text-3xl md:text-6xl font-bold text-center mt-2 
-            text-transparent bg-clip-text bg-gradient-to-r
-             text-white mb-3 md:mb-4 opacity-75`,font.className)}>
+            (`text-3xl md:text-6xl font-extrabold text-center mt-2 bg-clip-text text-transparent
+            bg-gradient-to-r from-slate-600  via-white to-slate-600  mb-3 md:mb-4`,font.className)}>
             MATHS BY MANI
           </h1>
-          <h2 className={cn(`text-lg text-white  font-semibold opacity-75`,)}>
+          <h2 className={cn(`text-center mt-2 text-neutral-200 relative text-xl opacity-80 bg-clip-text text-transparent
+            bg-gradient-to-r from-slate-500  via-white to-slate-500 font-semibold`)}>
             Class 11 | 12 Boards | IIT-JEE
           </h2>
-          <p className={cn("text-center mt-2 text-neutral-200 relative text-md opacity-75")}>
+          <p className={cn(`text-center mt-2 text-neutral-200 relative text-lg opacity-80 bg-clip-text text-transparent
+            bg-gradient-to-r from-slate-500  via-white to-slate-500`)}>
             A Beginner Friendly Offline Mathematics Institute For Class 11, Class 12, JEE Mains and JEE Advance. 
           </p>
-          <Button variant={"default"} className="opacity-75 bg-white text-black text-md hover:bg-slate-300">
+          <Button variant={"default"} className={cn(`opacity-75 bg-white text-black text-md hover:bg-slate-300`)}>
             <a href="#CourseId">
               <div className="flex items-center">
               Get Courses
