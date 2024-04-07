@@ -13,14 +13,14 @@ export default function NavBar() {
 
     return <header className="w-full sticky z-40
     top-0 min-h-14 py-2 text-white bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))]
-    from-blue-400 to-blue-800 border-b border-cyan-500
+    from-blue-500 to-blue-800 border-b border-black
     ">
         <div className="flex flex-row items-center justify-center gap-2 px-4 mr-2">
             <a href="/" className="flex items-center justify-start sm:pr-2">
                 <div className="rounded-full">
                     <Image src={logo} alt="Logo" height={64} />
                 </div>
-                <div className={cn("hidden md:block text-white font-bold",font.className)}>
+                <div className={cn("hidden md:block text-white text-xl font-bold",font.className)}>
                     MATHS BY MANI
                 </div>
             </a>

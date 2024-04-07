@@ -9,7 +9,7 @@ import { cn } from "@/lib/utils";
 
 const font = Poppins({
   subsets: ["latin"],
-  weight: ["600"]
+  weight: ["600","700","800","900"]
 })
 
 export default function Home() {
@@ -17,15 +17,15 @@ export default function Home() {
     <main className="flex flex-col 
     items-center
     justify-center bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))]
-     from-blue-400 to-blue-800 min-h-screen min-w-screen pb-24"
+     from-slate-800 to-slate-950 min-h-screen min-w-screen pb-24"
      >
     <div className={"bg-transparent overflow-hidden"}>
       <HeroSection/>
-      <div className="overflow-hidden w-full">
+      <div className=" w-full">
         <FeatureList/>
       </div>
       <div className="flex flex-col items-center justify-center gap-2 pt-2" id="CourseId">
-        <h1 className={cn("text-white font-semibold text-4xl pb-4",
+        <h1 className={cn("text-white font-bold text-5xl pb-6",
         font.className
         )}>
           Courses
@@ -33,7 +33,7 @@ export default function Home() {
         <CourseCarousel/>
       </div>
       <div className="flex flex-col items-center justify-center gap-2 pt-2 mt-8" id="ContactId">
-      <h1 className={cn("text-white font-semibold text-4xl pb-4",
+      <h1 className={cn("text-white font-bold text-5xl pb-6",
         font.className
         )}>
           Contact

@@ -46,6 +46,13 @@ export const siteConfig: Metadata = {
     'Mani Surya',
     'Courses',
     'Advanced Mathematics',
+    'India',
+    'IIT-JEE',
+    'Tuitions',
+    'Academy',
+    'Tutor',
+    'Jharkhand',
+    'Ranchi',
   ],
   metadataBase: new URL(BASE_URL),
 };
