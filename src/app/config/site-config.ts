@@ -7,7 +7,7 @@ const DESCRIPTION =
 const PREVIEW_IMAGE_URL = '/favicon';
 const ALT_TITLE = 'Class 11 | 12 | IIT-JEE Maths Tuitions From MathsByMani';
 
-const BASE_URL = 'https://mathsbymani.com';
+const BASE_URL = 'https://www.mathsbymani.com';
 
 export const siteConfig: Metadata = {
   title: TITLE,
