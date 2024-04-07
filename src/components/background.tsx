@@ -36,7 +36,7 @@ export function HeroSection() {
              text-white mb-3 md:mb-4 opacity-75`,font.className)}>
             MATHS BY MANI
           </h1>
-          <h2 className={cn(`text-lg text-white  font-thin opacity-75`,)}>
+          <h2 className={cn(`text-lg text-white  font-semibold opacity-75`,)}>
             Class 11 | 12 Boards | IIT-JEE
           </h2>
           <p className={cn("text-center mt-2 text-neutral-200 relative text-md opacity-75")}>
