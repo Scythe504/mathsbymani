@@ -13,7 +13,7 @@ export default function NavBar() {
 
     return <header className="w-full sticky z-40
     top-0 min-h-14 py-2 text-white bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))]
-    from-blue-500 to-blue-800 border-b border-black
+    from-slate-900 to-slate-950 border-b border-black
     ">
         <div className="flex flex-row items-center justify-center gap-2 px-4 mr-2">
             <a href="/" className="flex items-center justify-start sm:pr-2">
