@@ -3,6 +3,6 @@ export const feature = [
     "Course completion within 4-months of time and Full Attention given to each student",
     "\"FREE DEMO\" and Free Study Materials are available.",
     "Start from very basic and Become Advanced at Mathematics.",
-    "Classes held for 6days a week",
-    `All lectures are provided on the YouTube Channel`,
+    "Classes Held For 6days a Week.",
+    `Recorded Lectures are Provided for Students who misses any Class.`,
 ]
