@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
-import { Inter as FontSans} from "next/font/google";
+import { Inter} from "next/font/google";
 import "./globals.css";
 import Header from "../components/header";
 import { cn } from "@/lib/utils";
+// import NavBar from "@/components/new-headers";
 
-const font = FontSans({ subsets: ["latin"], variable: '--font-sans' });
+const font = Inter({ subsets: ["latin"]});
 
 export const metadata: Metadata = {
   title: "MathsByMani",
@@ -18,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={cn("min-h-screen bg-background font-sans antialiased",font.variable)}>
+      <body className={cn("min-h-screen bg-background antialiased",font.className)}>
           <Header/>
           {children}
         </body>

@@ -1,4 +1,4 @@
-export const metadata = [
+export const feature = [
     "Best Mathematics Academic Institute for JEE Mains and JEE Advance.",
     "Classes Available for both Class 11th and 12th students.",
     "Course completion within 3months of time",

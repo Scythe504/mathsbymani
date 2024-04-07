@@ -2,15 +2,13 @@ import { BackgroundBoxesDemo } from "@/components/background";
 import ContactCard from "@/components/contact-card";
 import CourseCarousel from "@/components/sliding-courses";
 import { CarouselWindow } from "@/components/sliding-windows";
-import { Boxes } from "@/components/ui/background-boxes";
 import Image from "next/image";
-import mapQr from "../../public/mapslocation.jpg"
+import mapQr from "../../public/location.png"
 
 
 export default function Home() {
   return (
     <div className={"translate-y-12 bg-slate-900 overflow-hidden"}>
-      <Boxes/>
       <BackgroundBoxesDemo/>
       <div className="overflow-hidden w-full">
         <CarouselWindow/>
@@ -28,7 +26,7 @@ export default function Home() {
         <div>
         <ContactCard/>
         </div>
-        <div>
+        <div className="py-4">
           <Image src={mapQr} alt="location qr code" height="256" width="256"/>
         </div>
         <div className="text-white text-center pb-20">
