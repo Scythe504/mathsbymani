@@ -31,7 +31,7 @@ export function HeroSection() {
               </Button>
           </div>
           <h1 className={cn
-            (`text-3xl md:text-6xl font-extrabold text-center mt-2 bg-clip-text text-transparent
+            (`text-3xl md:text-6xl font-bold text-center mt-2 bg-clip-text text-transparent
             bg-gradient-to-r from-slate-600  via-white to-slate-600  mb-3 md:mb-4`,font.className)}>
             MATHS BY MANI
           </h1>
