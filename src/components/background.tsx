@@ -40,7 +40,7 @@ export function HeroSection() {
             Class 11 | 12 Boards | IIT-JEE
           </h2>
           <p className={cn(`text-center mt-2 text-neutral-200 relative text-lg opacity-80 bg-clip-text text-transparent
-            bg-gradient-to-r from-slate-500  via-white to-slate-500`)}>
+            bg-gradient-to-r from-gray-300  via-white to-slate-300`)}>
             A Beginner Friendly Offline Mathematics Institute For Class 11, Class 12, JEE Mains and JEE Advance. 
           </p>
           <Button variant={"default"} className={cn(`opacity-75 bg-white text-black text-md hover:bg-slate-300`)}>
