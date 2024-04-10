@@ -8,7 +8,7 @@ const font = Poppins({
     weight: ["200", "400", "600"]
 })
 
-export default function () {
+export default function Announcement() {
 
     return <div className="flex flex-row gap-2 items-center mx-3">
          <Card className="w-full min-h-20 flex items-center">
