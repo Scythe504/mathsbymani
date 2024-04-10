@@ -1,7 +1,7 @@
 export const courses = [{
     name: "Golden",
     students : "10 Students only",
-    fees: "₹5000/- per month only",
+    fees: "₹2500/- per month only",
     color: `bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))]
     from-yellow-400 to-yellow-200`,
     text: "text-black   "
@@ -9,7 +9,7 @@ export const courses = [{
 {
     name: "Premium",
     students: "5 Students only",
-    fees: "₹10000/- per month only",
+    fees: "₹4000/- per month only",
     color: `bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))]
     from-gray-200 to-slate-500`,
     text: "text-black"
