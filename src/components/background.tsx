@@ -7,6 +7,7 @@ import { RxArrowBottomRight } from "react-icons/rx";
 import { SlBadge } from "react-icons/sl";
 import { cn } from "@/lib/utils";
 import { Poppins } from "next/font/google";
+import Announcement from "./announcement";
 
 const font = Poppins({
   subsets: ["latin"],
@@ -39,6 +40,7 @@ export function HeroSection() {
             bg-gradient-to-r from-slate-500  via-white to-slate-500 font-semibold`)}>
             Class 11 | 12 Boards | IIT-JEE
           </h2>
+          <Announcement/>
           <p className={cn(`text-center mt-2 text-neutral-200 relative text-lg opacity-80 bg-clip-text text-transparent
             bg-gradient-to-r from-gray-300  via-white to-slate-300`)}>
             A Beginner Friendly Offline Mathematics Institute For Class 11, Class 12, JEE Mains and JEE Advance. 

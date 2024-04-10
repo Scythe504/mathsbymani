@@ -12,7 +12,7 @@ const font = Poppins({
 
 export function FeatureList() {
     return (
-        <div className="flex flex-col items-center justify-center space-y-8 mr-3 -mt-8">
+        <div className="flex flex-col items-center justify-center space-y-8 mr-3 mt-2">
             <h1 className="font-bold text-3xl text-white mx-2">What we provide</h1>
             <ul className={cn("text-white text-sm text-start font-bold space-y-4 pb-8 mx-2"
             ,font.className)}>
